@@ -1,0 +1,64 @@
+/* file: _functions.scss, must be attached first*/
+/*====COLORS=======*/
+/*=====FONTS=======*/
+.fader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+header .bottom-header {
+  text-align: center;
+}
+
+header .bottom-header nav {
+  margin-top: 50vw;
+}
+
+header .bottom-header nav .link_2 {
+  padding: 7px;
+  height: 120px;
+  -webkit-transition: -webkit-transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4;
+  transition: -webkit-transform 0.4;
+  transition: transform 0.4;
+  transition: transform 0.4, -webkit-transform 0.4;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+header .bottom-header nav .link_2 figure {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+header .bottom-header nav .link_2 .front {
+  background: -webkit-gradient(linear, right bottom, left top, from(#ff8a00), to(#da1b60));
+  background: linear-gradient(to top left, #ff8a00, #da1b60);
+}
+
+header .bottom-header nav .link_2 .front a {
+  color: #eaeaea;
+}
+
+header .bottom-header nav .link_2 .back {
+  background: -webkit-gradient(linear, right bottom, left top, from(#6db3f2), color-stop(50%, #54a3ee), color-stop(51%, #3690f0), to(#1e69de));
+  background: linear-gradient(to top left, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+header .bottom-header nav .link_2 .back a {
+  color: #eaeaea;
+}
+/*# sourceMappingURL=main.css.map */
