@@ -7,7 +7,7 @@ $(document).ready(function () {
        backgroundImage: 'url('+ images[1]+')',
        backgroundRepeat: 'no-repeat',
        backgroundSize: '100%',
-       backgroundPosition: 'center bottom'
+       backgroundPosition: 'center 75%'
    });
    let interval = setInterval(() => {
       image.fadeOut(500, ()=>{
