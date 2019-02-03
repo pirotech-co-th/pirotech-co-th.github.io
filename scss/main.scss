@@ -5,14 +5,18 @@
 .fader{
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
 }
 header{
     .bottom-header{
         text-align: center;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        background-color: #eaeaea;
         
         nav{
-            margin-top: 10vh;
+            margin-top: 70vh;
+            padding-bottom: 30px;
             .link_2 {
             
                 padding: 7px;
