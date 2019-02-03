@@ -1,0 +1,124 @@
+@import "functions";/* file: _functions.scss, must be attached first*/
+@import "variables";
+@import "mixins";
+
+body {
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+  }
+  div {
+    position: absolute;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+  }
+    div#my-navigation{
+        position: absolute;
+        top: 10px;
+        left: 700px;
+    }
+
+  $earthSize: 400px;
+  
+  #earth {
+    transform: rotateZ(-20deg) rotateX(10deg);
+  
+    .mantle {
+      animation: rotate 50000ms linear infinite;
+    }
+    
+    .ground:nth-child(1) {
+      transform: translate(-$earthSize / 2, -$earthSize / 2);
+    }
+    
+    .ground:nth-child(2) {
+      transform: rotateZ(90deg) translate(-$earthSize / 2, -$earthSize / 2);
+    }
+    
+    .core {
+      width: $earthSize;
+      height: $earthSize;
+      background: rgba(255, 255, 200, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 100%;
+      box-shadow: 0 0 100px 0 rgba(255, 220, 200, 0.1);
+      
+      .light {
+        top: calc(50% - 10px);
+        left: calc(50% - 0.5px);
+        
+        &_inner {
+          width: 1px;
+          height: 20px;
+          background: rgba(255, 255, 255, 1);
+          border-radius: 100%;
+        }
+      }
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 88%;
+        height: 88%;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 100%;
+        transform: translate(-50%, -50%);
+      }
+      
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40%;
+        height: 40%;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 100%;
+        transform: translate(-50%, -50%);
+      }
+      
+      @for $i from 1 through 18 {
+        &:nth-child(#{$i}) {
+          transform: rotateX(($i - 1) * 10deg);
+          
+          .light {
+            @for $j from 1 through 10 {
+              &:nth-child(#{$j}) {
+                transform: rotateZ(random(360) + 0deg);
+              }
+            }
+            &_inner {
+              animation: light random(2000) + 800ms random(3000) * -1ms ease-in infinite;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  @keyframes light {
+    100% {
+      transform: translateY(0);
+      opacity: 1.5;
+    }
+    0% {
+      transform: translateY($earthSize / 1.2);
+      opacity: 0;
+    }
+  }

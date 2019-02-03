@@ -1,0 +1,73 @@
+@import "functions";/* file: _functions.scss, must be attached first*/
+@import "variables";
+@import "mixins";
+
+.fader{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    .bottom-header{
+        text-align: center;
+        
+        nav{
+            margin-top: 10vh;
+            .link_2 {
+            
+                padding: 7px;
+                height: 120px;
+                -webkit-transition: -webkit-transform 0.4s;
+                -moz-transition: -moz-transform 0.4s;
+                -o-transition: -o-transform 0.4s;
+                transition: transform 0.4;
+                -webkit-transform-style: preserve-3d;
+                -moz-transform-style: preserve-3d;
+                -o-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+                figure {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;
+                    
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: 0;
+                    -webkit-backface-visibility: hidden;
+                    -moz-backface-visibility: hidden;
+                    -o-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                  }
+                .front {    
+                    background: linear-gradient(to top left,#ff8a00,#da1b60);
+                    
+                    a{
+                        color: #eaeaea;
+                    }
+                }
+                  
+                .back {
+                    background: linear-gradient(to top left, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
+                    -webkit-transform: rotateY( 180deg);
+                    -moz-transform: rotateY( 180deg);
+                    -o-transform: rotateY( 180deg);
+                    transform: rotateY( 180deg);
+                    a{
+                        color: #eaeaea;
+                    }
+            
+                }
+            }
+        }
+        
+        
+    }
+
+      
+      
+}
+
