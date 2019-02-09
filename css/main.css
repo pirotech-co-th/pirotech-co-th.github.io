@@ -1,6 +1,12 @@
 /* file: _functions.scss, must be attached first*/
 /*====COLORS=======*/
 /*=====FONTS=======*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
+body {
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+}
+
 .fader {
   position: absolute;
   width: 100vw;
@@ -64,5 +70,56 @@ header .bottom-header nav .link_2 .back {
 
 header .bottom-header nav .link_2 .back a {
   color: #eaeaea;
+}
+
+footer {
+  height: 350px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
+  background: linear-gradient(to top right, #2b3690, #0a172d);
+  color: #fff;
+}
+
+footer .logo {
+  height: 350px;
+  background-image: url("../img/logo_2.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left center;
+}
+
+footer .top-footer {
+  padding-top: 60px;
+}
+
+footer .mid-footer {
+  padding-top: 50px;
+}
+
+footer .bottom-footer {
+  padding-top: 50px;
+}
+
+footer .bottom-footer .social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .bottom-footer .social-media li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+footer .bottom-footer .social-media li a img {
+  width: 54px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fdfdfd;
 }
 /*# sourceMappingURL=main.css.map */

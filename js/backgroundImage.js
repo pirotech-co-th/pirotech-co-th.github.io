@@ -10,14 +10,14 @@ $(document).ready(function () {
        backgroundPosition: 'center 75%'
    });
    let interval = setInterval(() => {
-      image.fadeOut(500, ()=>{
+      image.fadeOut(800, ()=>{
         image.css({
             backgroundImage: 'url('+ images[count++] +')'
         }); 
-        image.fadeIn(500) ;
+        image.fadeIn(800) ;
       });
       if (count == images.length) {
           count=0;
       }
-   }, 5000);
+   }, 15000);
 });

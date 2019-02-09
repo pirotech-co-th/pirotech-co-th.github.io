@@ -1,12 +1,4 @@
-$(document).ready(function(){
-	// $('header div.link>a').on('click', function (evt) {
-	// 	$(evt.target).fadeOut();
-	// 	$(evt.target.nextElementSibling).fadeIn();	
-	// });
-	// $('ul.sub-link li a.go-back').on( 'click', function (evt) {
-	// 	$(evt.target).parent().parent().slideUp();
-	// 	$(evt.target).parent().parent().prev().slideDown();
-	// });	
+$(document).ready(function(){	
 
 	$('header div.link>a').on('click', function (evt) {
 		$(evt.target).animate({ width: 'hide' }, 'fast');
