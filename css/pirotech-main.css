@@ -39,7 +39,11 @@ header .top-header .navbar-dark .navbar-toggler-icon {
 }
 
 main {
-  min-height: 40vh;
+  min-height: 80vh;
+}
+
+.section1 {
+  padding: 0;
 }
 
 footer {
