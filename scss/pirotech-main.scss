@@ -32,10 +32,15 @@ header {
 }
 
 main {
-    min-height: 80vh;
+    
 }
 .section1{
     padding: 0;
+    .carousel-item{
+        img{
+            width:100%;
+        }
+    }
 }
 // footer:
 footer {

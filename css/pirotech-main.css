@@ -38,12 +38,12 @@ header .top-header .navbar-dark .navbar-toggler-icon {
   background-image: url("../img/logo-navbar-brand.png");
 }
 
-main {
-  min-height: 80vh;
-}
-
 .section1 {
   padding: 0;
+}
+
+.section1 .carousel-item img {
+  width: 100%;
 }
 
 footer {
