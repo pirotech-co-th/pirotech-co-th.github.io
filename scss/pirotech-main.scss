@@ -28,39 +28,6 @@ header {
         .navbar-dark .navbar-toggler-icon {
             background-image: url('../img/logo-navbar-brand.png');
         }
-        @media (min-width: 768px) {
-            .navbar-expand-lg {
-                -ms-flex-flow: row nowrap !important;
-                flex-flow: row nowrap !important;
-                -ms-flex-pack: start !important;
-                justify-content: flex-start !important;
-            }
-            .navbar-expand-lg .navbar-nav {
-                -ms-flex-direction: row !important;
-                flex-direction: row !important;
-            }
-            .navbar-expand-lg .navbar-nav .dropdown-menu {
-                position: absolute !important;
-            }
-            .navbar-expand-lg .navbar-nav .nav-link {
-                padding-right: 0.5rem !important;
-                padding-left: 0.5rem !important;
-            }
-            .navbar-expand-lg>.container,
-            .navbar-expand-lg>.container-fluid {
-                -ms-flex-wrap: nowrap !important;
-                flex-wrap: nowrap !important;
-            }
-            .navbar-expand-lg .navbar-collapse {
-                display: -ms-flexbox !important;
-                display: flex !important;
-                -ms-flex-preferred-size: auto !important;
-                flex-basis: auto !important;
-            }
-            .navbar-expand-lg .navbar-toggler {
-                display: none !important;
-            }
-        }
     }
 }
 
