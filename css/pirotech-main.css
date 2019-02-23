@@ -1,0 +1,215 @@
+/* file: _functions.scss, must be attached first*/
+/*====COLORS=======*/
+/*=====FONTS=======*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
+body {
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+}
+
+header {
+  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
+  background: linear-gradient(to top right, #2b3690, #0a172d);
+}
+
+header .top-header {
+  background: inherit;
+}
+
+header .top-header .navbar-brand {
+  font-size: 24px;
+}
+
+header .top-header .navbar-brand i {
+  font-weight: 600;
+}
+
+header .top-header .navbar-dark .navbar-nav .nav-link {
+  margin: 0 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  header .top-header .navbar-dark .navbar-nav .nav-link {
+    margin: 0 6px;
+  }
+}
+
+header .top-header .navbar-dark .navbar-toggler-icon {
+  background-image: url("../img/logo-navbar-brand.png");
+}
+
+@media (min-width: 768px) {
+  header .top-header .navbar-expand-lg {
+    -ms-flex-flow: row nowrap !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+            flex-flow: row nowrap !important;
+    -ms-flex-pack: start !important;
+    -webkit-box-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  header .top-header .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: row !important;
+  }
+  header .top-header .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
+  header .top-header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+  }
+  header .top-header .navbar-expand-lg > .container,
+  header .top-header .navbar-expand-lg > .container-fluid {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+  }
+  header .top-header .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto !important;
+    flex-basis: auto !important;
+  }
+  header .top-header .navbar-expand-lg .navbar-toggler {
+    display: none !important;
+  }
+}
+
+main {
+  min-height: 40vh;
+}
+
+footer {
+  height: 350px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
+  background: linear-gradient(to top right, #2b3690, #0a172d);
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    text-align: center;
+  }
+}
+
+footer .logo {
+  height: 350px;
+  background-image: url("../img/logo_2.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left center;
+}
+
+footer .top-footer {
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 576px) {
+  footer .top-footer {
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .top-footer {
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .top-footer {
+    padding-top: 44px;
+  }
+}
+
+footer .mid-footer {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .mid-footer {
+    padding-top: 34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .mid-footer {
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer .mid-footer {
+    padding-top: 12px;
+  }
+}
+
+footer .mid-footer .contact-details {
+  padding: 12px 0;
+}
+
+footer .mid-footer .contact-details a {
+  display: inline-block;
+}
+
+footer .bottom-footer {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .bottom-footer {
+    padding-top: 34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .bottom-footer {
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer .bottom-footer {
+    padding-top: 12px;
+  }
+}
+
+footer .bottom-footer .social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  footer .bottom-footer .social-media ul {
+    padding-left: 18px;
+  }
+}
+
+footer .bottom-footer .social-media li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+footer .bottom-footer .social-media li a img {
+  max-width: 44px;
+}
+
+@media only screen and (max-width: 576px) {
+  footer .bottom-footer .social-media li a img {
+    max-width: 38px;
+  }
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fdfdfd;
+}
+/*# sourceMappingURL=pirotech-main.css.map */

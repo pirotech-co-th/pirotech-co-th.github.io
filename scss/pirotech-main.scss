@@ -1,0 +1,157 @@
+@import "functions";
+/* file: _functions.scss, must be attached first*/
+
+@import "variables";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+body {
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+    background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
+    .top-header {
+        background: inherit;
+        .navbar-brand {
+            font-size: 24px;
+            i {
+                font-weight: 600;
+            }
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            margin: 0 15px;
+            @include sm-screens {
+                margin: 0 6px;
+            }
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url('../img/logo-navbar-brand.png');
+        }
+        @media (min-width: 768px) {
+            .navbar-expand-lg {
+                -ms-flex-flow: row nowrap !important;
+                flex-flow: row nowrap !important;
+                -ms-flex-pack: start !important;
+                justify-content: flex-start !important;
+            }
+            .navbar-expand-lg .navbar-nav {
+                -ms-flex-direction: row !important;
+                flex-direction: row !important;
+            }
+            .navbar-expand-lg .navbar-nav .dropdown-menu {
+                position: absolute !important;
+            }
+            .navbar-expand-lg .navbar-nav .nav-link {
+                padding-right: 0.5rem !important;
+                padding-left: 0.5rem !important;
+            }
+            .navbar-expand-lg>.container,
+            .navbar-expand-lg>.container-fluid {
+                -ms-flex-wrap: nowrap !important;
+                flex-wrap: nowrap !important;
+            }
+            .navbar-expand-lg .navbar-collapse {
+                display: -ms-flexbox !important;
+                display: flex !important;
+                -ms-flex-preferred-size: auto !important;
+                flex-basis: auto !important;
+            }
+            .navbar-expand-lg .navbar-toggler {
+                display: none !important;
+            }
+        }
+    }
+}
+
+main {
+    min-height: 40vh;
+}
+
+// footer:
+footer {
+    height: 350px; // to remove after
+    background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
+    color: #fff;
+    @include small-xs-screens {
+        text-align: center;
+    }
+    .logo {
+        height: 350px;
+        background-image: url('../img/logo_2.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: left center;
+    }
+    .top-footer {
+        padding-top: 60px;
+        @include small-xs-screens {
+            padding-top: 24px;
+        }
+        @include xs-screens {
+            padding-top: 24px;
+        }
+        @include md-screens {
+            padding-top: 44px;
+        }
+    }
+    .mid-footer {
+        padding-top: 50px;
+        @include md-screens {
+            padding-top: 34px;
+        }
+        @include xs-screens {
+            padding-top: 12px;
+        }
+        @include small-xs-screens {
+            padding-top: 12px;
+        }
+        .contact-details {
+            a {
+                display: inline-block;
+            }
+            padding: 12px 0;
+        }
+    }
+    .bottom-footer {
+        padding-top: 50px;
+        @include md-screens {
+            padding-top: 34px;
+        }
+        @include xs-screens {
+            padding-top: 24px;
+        }
+        @include small-xs-screens {
+            padding-top: 12px;
+        }
+        .social-media {
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                @include small-xs-screens {
+                    padding-left: 18px;
+                }
+            }
+            li {
+                display: inline-block;
+                margin-right: 12px;
+                a {
+                    img {
+                        max-width: 44px;
+                        @include small-xs-screens {
+                            max-width: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: darken(#fff, .8);
+        }
+    }
+}
