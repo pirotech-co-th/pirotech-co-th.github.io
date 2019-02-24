@@ -1,3 +1,5 @@
+@import "mixins";
+
 $primary: rgba(43, 54, 144, 1);
 $danger: #ef4156;
 $border-radius: 0;
@@ -8,9 +10,6 @@ $carousel-transition-duration: 1.6s;
     background:linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10,23,45, 1) );
 }
 
-.carousel-item img{
-    // opacity: .9;
-}
 
 .carousel-caption {
     position: absolute;
@@ -20,7 +19,10 @@ $carousel-transition-duration: 1.6s;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    // background-color: rgba(10,23,45, .5);
+    @include sm-screens{
+       top: 50px; 
+       bottom: 80px;
+    }
 }
 
 // importing all bootstrap

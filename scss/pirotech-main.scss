@@ -1,9 +1,8 @@
 @import "functions";
-/* file: _functions.scss, must be attached first*/
-
 @import "variables";
 @import "mixins";
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+
 body {
     font-size: 16px;
     font-family: 'Heebo', sans-serif;
@@ -34,21 +33,34 @@ header {
 main {
     
 }
+.piroTech-brand{
+    color: #fff;
+    font-weight: 600;
+}
 .intro{
     padding: 30px;
     background-color: rgba(10,23,45, .5);
+    @include sm-screens{
+        padding: 30px 12px; 
+    }
+    h5{
+        color:  #fff;
+        @include sm-screens{
+            margin-bottom: 4px; 
+        }
+    }
 }
 .section1{
     padding: 0;
     
 }
-// footer:
+
 footer {
-    height: 350px; // to remove after
     background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
     color: #fff;
     @include small-xs-screens {
         text-align: center;
+        padding-bottom: 30px;
     }
     .logo {
         height: 350px;
@@ -117,6 +129,17 @@ footer {
                             max-width: 38px;
                         }
                     }
+                }
+            }
+        }
+        .credentials{
+            padding-top: 12px;
+            font-size: 12px;
+            ul{
+                list-style: none;
+                li{
+                    display: inline-block;
+                    margin-right: 12px;
                 }
             }
         }

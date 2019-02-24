@@ -107,58 +107,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(1) .light:nth-child(1) {
-  -webkit-transform: rotateZ(227deg);
-          transform: rotateZ(227deg);
+  -webkit-transform: rotateZ(168deg);
+          transform: rotateZ(168deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(2) {
-  -webkit-transform: rotateZ(241deg);
-          transform: rotateZ(241deg);
+  -webkit-transform: rotateZ(322deg);
+          transform: rotateZ(322deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(3) {
-  -webkit-transform: rotateZ(315deg);
-          transform: rotateZ(315deg);
+  -webkit-transform: rotateZ(266deg);
+          transform: rotateZ(266deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(4) {
-  -webkit-transform: rotateZ(203deg);
-          transform: rotateZ(203deg);
+  -webkit-transform: rotateZ(320deg);
+          transform: rotateZ(320deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(5) {
-  -webkit-transform: rotateZ(333deg);
-          transform: rotateZ(333deg);
+  -webkit-transform: rotateZ(57deg);
+          transform: rotateZ(57deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(6) {
-  -webkit-transform: rotateZ(186deg);
-          transform: rotateZ(186deg);
+  -webkit-transform: rotateZ(317deg);
+          transform: rotateZ(317deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(7) {
-  -webkit-transform: rotateZ(214deg);
-          transform: rotateZ(214deg);
+  -webkit-transform: rotateZ(250deg);
+          transform: rotateZ(250deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(8) {
-  -webkit-transform: rotateZ(159deg);
-          transform: rotateZ(159deg);
+  -webkit-transform: rotateZ(257deg);
+          transform: rotateZ(257deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(9) {
-  -webkit-transform: rotateZ(103deg);
-          transform: rotateZ(103deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
 }
 
 #earth .core:nth-child(1) .light:nth-child(10) {
-  -webkit-transform: rotateZ(287deg);
-          transform: rotateZ(287deg);
+  -webkit-transform: rotateZ(50deg);
+          transform: rotateZ(50deg);
 }
 
 #earth .core:nth-child(1) .light_inner {
-  -webkit-animation: light 1917ms -975ms ease-in infinite;
-          animation: light 1917ms -975ms ease-in infinite;
+  -webkit-animation: light 2686ms -488ms ease-in infinite;
+          animation: light 2686ms -488ms ease-in infinite;
 }
 
 #earth .core:nth-child(2) {
@@ -167,58 +167,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(2) .light:nth-child(1) {
-  -webkit-transform: rotateZ(13deg);
-          transform: rotateZ(13deg);
+  -webkit-transform: rotateZ(166deg);
+          transform: rotateZ(166deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(2) {
-  -webkit-transform: rotateZ(32deg);
-          transform: rotateZ(32deg);
+  -webkit-transform: rotateZ(6deg);
+          transform: rotateZ(6deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(3) {
-  -webkit-transform: rotateZ(61deg);
-          transform: rotateZ(61deg);
+  -webkit-transform: rotateZ(103deg);
+          transform: rotateZ(103deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(4) {
-  -webkit-transform: rotateZ(213deg);
-          transform: rotateZ(213deg);
+  -webkit-transform: rotateZ(191deg);
+          transform: rotateZ(191deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(5) {
-  -webkit-transform: rotateZ(285deg);
-          transform: rotateZ(285deg);
+  -webkit-transform: rotateZ(221deg);
+          transform: rotateZ(221deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(6) {
-  -webkit-transform: rotateZ(15deg);
-          transform: rotateZ(15deg);
+  -webkit-transform: rotateZ(139deg);
+          transform: rotateZ(139deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(7) {
-  -webkit-transform: rotateZ(69deg);
-          transform: rotateZ(69deg);
+  -webkit-transform: rotateZ(105deg);
+          transform: rotateZ(105deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(8) {
-  -webkit-transform: rotateZ(330deg);
-          transform: rotateZ(330deg);
+  -webkit-transform: rotateZ(14deg);
+          transform: rotateZ(14deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(9) {
-  -webkit-transform: rotateZ(269deg);
-          transform: rotateZ(269deg);
+  -webkit-transform: rotateZ(282deg);
+          transform: rotateZ(282deg);
 }
 
 #earth .core:nth-child(2) .light:nth-child(10) {
-  -webkit-transform: rotateZ(329deg);
-          transform: rotateZ(329deg);
+  -webkit-transform: rotateZ(245deg);
+          transform: rotateZ(245deg);
 }
 
 #earth .core:nth-child(2) .light_inner {
-  -webkit-animation: light 2672ms -1360ms ease-in infinite;
-          animation: light 2672ms -1360ms ease-in infinite;
+  -webkit-animation: light 2500ms -97ms ease-in infinite;
+          animation: light 2500ms -97ms ease-in infinite;
 }
 
 #earth .core:nth-child(3) {
@@ -227,58 +227,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(3) .light:nth-child(1) {
-  -webkit-transform: rotateZ(329deg);
-          transform: rotateZ(329deg);
+  -webkit-transform: rotateZ(238deg);
+          transform: rotateZ(238deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(2) {
-  -webkit-transform: rotateZ(309deg);
-          transform: rotateZ(309deg);
+  -webkit-transform: rotateZ(242deg);
+          transform: rotateZ(242deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(3) {
-  -webkit-transform: rotateZ(6deg);
-          transform: rotateZ(6deg);
+  -webkit-transform: rotateZ(316deg);
+          transform: rotateZ(316deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(4) {
-  -webkit-transform: rotateZ(197deg);
-          transform: rotateZ(197deg);
+  -webkit-transform: rotateZ(14deg);
+          transform: rotateZ(14deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(5) {
-  -webkit-transform: rotateZ(89deg);
-          transform: rotateZ(89deg);
+  -webkit-transform: rotateZ(265deg);
+          transform: rotateZ(265deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(6) {
-  -webkit-transform: rotateZ(16deg);
-          transform: rotateZ(16deg);
+  -webkit-transform: rotateZ(201deg);
+          transform: rotateZ(201deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(7) {
-  -webkit-transform: rotateZ(147deg);
-          transform: rotateZ(147deg);
+  -webkit-transform: rotateZ(248deg);
+          transform: rotateZ(248deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(8) {
-  -webkit-transform: rotateZ(27deg);
-          transform: rotateZ(27deg);
+  -webkit-transform: rotateZ(74deg);
+          transform: rotateZ(74deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(9) {
-  -webkit-transform: rotateZ(147deg);
-          transform: rotateZ(147deg);
+  -webkit-transform: rotateZ(304deg);
+          transform: rotateZ(304deg);
 }
 
 #earth .core:nth-child(3) .light:nth-child(10) {
-  -webkit-transform: rotateZ(315deg);
-          transform: rotateZ(315deg);
+  -webkit-transform: rotateZ(97deg);
+          transform: rotateZ(97deg);
 }
 
 #earth .core:nth-child(3) .light_inner {
-  -webkit-animation: light 1860ms -466ms ease-in infinite;
-          animation: light 1860ms -466ms ease-in infinite;
+  -webkit-animation: light 2715ms -1355ms ease-in infinite;
+          animation: light 2715ms -1355ms ease-in infinite;
 }
 
 #earth .core:nth-child(4) {
@@ -287,58 +287,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(4) .light:nth-child(1) {
-  -webkit-transform: rotateZ(31deg);
-          transform: rotateZ(31deg);
+  -webkit-transform: rotateZ(291deg);
+          transform: rotateZ(291deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(2) {
-  -webkit-transform: rotateZ(91deg);
-          transform: rotateZ(91deg);
+  -webkit-transform: rotateZ(321deg);
+          transform: rotateZ(321deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(3) {
-  -webkit-transform: rotateZ(292deg);
-          transform: rotateZ(292deg);
+  -webkit-transform: rotateZ(85deg);
+          transform: rotateZ(85deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(4) {
-  -webkit-transform: rotateZ(263deg);
-          transform: rotateZ(263deg);
+  -webkit-transform: rotateZ(85deg);
+          transform: rotateZ(85deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(5) {
-  -webkit-transform: rotateZ(106deg);
-          transform: rotateZ(106deg);
+  -webkit-transform: rotateZ(246deg);
+          transform: rotateZ(246deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(6) {
-  -webkit-transform: rotateZ(267deg);
-          transform: rotateZ(267deg);
+  -webkit-transform: rotateZ(295deg);
+          transform: rotateZ(295deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(7) {
-  -webkit-transform: rotateZ(243deg);
-          transform: rotateZ(243deg);
+  -webkit-transform: rotateZ(136deg);
+          transform: rotateZ(136deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(8) {
-  -webkit-transform: rotateZ(60deg);
-          transform: rotateZ(60deg);
+  -webkit-transform: rotateZ(30deg);
+          transform: rotateZ(30deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(9) {
-  -webkit-transform: rotateZ(250deg);
-          transform: rotateZ(250deg);
+  -webkit-transform: rotateZ(88deg);
+          transform: rotateZ(88deg);
 }
 
 #earth .core:nth-child(4) .light:nth-child(10) {
-  -webkit-transform: rotateZ(58deg);
-          transform: rotateZ(58deg);
+  -webkit-transform: rotateZ(8deg);
+          transform: rotateZ(8deg);
 }
 
 #earth .core:nth-child(4) .light_inner {
-  -webkit-animation: light 2767ms -2806ms ease-in infinite;
-          animation: light 2767ms -2806ms ease-in infinite;
+  -webkit-animation: light 1234ms -744ms ease-in infinite;
+          animation: light 1234ms -744ms ease-in infinite;
 }
 
 #earth .core:nth-child(5) {
@@ -347,58 +347,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(5) .light:nth-child(1) {
-  -webkit-transform: rotateZ(263deg);
-          transform: rotateZ(263deg);
-}
-
-#earth .core:nth-child(5) .light:nth-child(2) {
   -webkit-transform: rotateZ(194deg);
           transform: rotateZ(194deg);
 }
 
+#earth .core:nth-child(5) .light:nth-child(2) {
+  -webkit-transform: rotateZ(170deg);
+          transform: rotateZ(170deg);
+}
+
 #earth .core:nth-child(5) .light:nth-child(3) {
-  -webkit-transform: rotateZ(116deg);
-          transform: rotateZ(116deg);
+  -webkit-transform: rotateZ(199deg);
+          transform: rotateZ(199deg);
 }
 
 #earth .core:nth-child(5) .light:nth-child(4) {
-  -webkit-transform: rotateZ(77deg);
-          transform: rotateZ(77deg);
+  -webkit-transform: rotateZ(345deg);
+          transform: rotateZ(345deg);
 }
 
 #earth .core:nth-child(5) .light:nth-child(5) {
-  -webkit-transform: rotateZ(175deg);
-          transform: rotateZ(175deg);
+  -webkit-transform: rotateZ(249deg);
+          transform: rotateZ(249deg);
 }
 
 #earth .core:nth-child(5) .light:nth-child(6) {
+  -webkit-transform: rotateZ(127deg);
+          transform: rotateZ(127deg);
+}
+
+#earth .core:nth-child(5) .light:nth-child(7) {
   -webkit-transform: rotateZ(309deg);
           transform: rotateZ(309deg);
 }
 
-#earth .core:nth-child(5) .light:nth-child(7) {
-  -webkit-transform: rotateZ(56deg);
-          transform: rotateZ(56deg);
-}
-
 #earth .core:nth-child(5) .light:nth-child(8) {
-  -webkit-transform: rotateZ(174deg);
-          transform: rotateZ(174deg);
+  -webkit-transform: rotateZ(16deg);
+          transform: rotateZ(16deg);
 }
 
 #earth .core:nth-child(5) .light:nth-child(9) {
-  -webkit-transform: rotateZ(119deg);
-          transform: rotateZ(119deg);
+  -webkit-transform: rotateZ(268deg);
+          transform: rotateZ(268deg);
 }
 
 #earth .core:nth-child(5) .light:nth-child(10) {
-  -webkit-transform: rotateZ(300deg);
-          transform: rotateZ(300deg);
+  -webkit-transform: rotateZ(6deg);
+          transform: rotateZ(6deg);
 }
 
 #earth .core:nth-child(5) .light_inner {
-  -webkit-animation: light 1736ms -720ms ease-in infinite;
-          animation: light 1736ms -720ms ease-in infinite;
+  -webkit-animation: light 922ms -1180ms ease-in infinite;
+          animation: light 922ms -1180ms ease-in infinite;
 }
 
 #earth .core:nth-child(6) {
@@ -407,58 +407,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(6) .light:nth-child(1) {
-  -webkit-transform: rotateZ(171deg);
-          transform: rotateZ(171deg);
+  -webkit-transform: rotateZ(206deg);
+          transform: rotateZ(206deg);
 }
 
 #earth .core:nth-child(6) .light:nth-child(2) {
-  -webkit-transform: rotateZ(32deg);
-          transform: rotateZ(32deg);
-}
-
-#earth .core:nth-child(6) .light:nth-child(3) {
-  -webkit-transform: rotateZ(68deg);
-          transform: rotateZ(68deg);
-}
-
-#earth .core:nth-child(6) .light:nth-child(4) {
-  -webkit-transform: rotateZ(341deg);
-          transform: rotateZ(341deg);
-}
-
-#earth .core:nth-child(6) .light:nth-child(5) {
-  -webkit-transform: rotateZ(338deg);
-          transform: rotateZ(338deg);
-}
-
-#earth .core:nth-child(6) .light:nth-child(6) {
   -webkit-transform: rotateZ(335deg);
           transform: rotateZ(335deg);
 }
 
+#earth .core:nth-child(6) .light:nth-child(3) {
+  -webkit-transform: rotateZ(282deg);
+          transform: rotateZ(282deg);
+}
+
+#earth .core:nth-child(6) .light:nth-child(4) {
+  -webkit-transform: rotateZ(197deg);
+          transform: rotateZ(197deg);
+}
+
+#earth .core:nth-child(6) .light:nth-child(5) {
+  -webkit-transform: rotateZ(137deg);
+          transform: rotateZ(137deg);
+}
+
+#earth .core:nth-child(6) .light:nth-child(6) {
+  -webkit-transform: rotateZ(192deg);
+          transform: rotateZ(192deg);
+}
+
 #earth .core:nth-child(6) .light:nth-child(7) {
-  -webkit-transform: rotateZ(213deg);
-          transform: rotateZ(213deg);
+  -webkit-transform: rotateZ(139deg);
+          transform: rotateZ(139deg);
 }
 
 #earth .core:nth-child(6) .light:nth-child(8) {
-  -webkit-transform: rotateZ(80deg);
-          transform: rotateZ(80deg);
+  -webkit-transform: rotateZ(300deg);
+          transform: rotateZ(300deg);
 }
 
 #earth .core:nth-child(6) .light:nth-child(9) {
-  -webkit-transform: rotateZ(125deg);
-          transform: rotateZ(125deg);
+  -webkit-transform: rotateZ(39deg);
+          transform: rotateZ(39deg);
 }
 
 #earth .core:nth-child(6) .light:nth-child(10) {
-  -webkit-transform: rotateZ(12deg);
-          transform: rotateZ(12deg);
+  -webkit-transform: rotateZ(267deg);
+          transform: rotateZ(267deg);
 }
 
 #earth .core:nth-child(6) .light_inner {
-  -webkit-animation: light 1848ms -1207ms ease-in infinite;
-          animation: light 1848ms -1207ms ease-in infinite;
+  -webkit-animation: light 1785ms -66ms ease-in infinite;
+          animation: light 1785ms -66ms ease-in infinite;
 }
 
 #earth .core:nth-child(7) {
@@ -467,58 +467,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(7) .light:nth-child(1) {
-  -webkit-transform: rotateZ(192deg);
-          transform: rotateZ(192deg);
+  -webkit-transform: rotateZ(111deg);
+          transform: rotateZ(111deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(2) {
-  -webkit-transform: rotateZ(303deg);
-          transform: rotateZ(303deg);
+  -webkit-transform: rotateZ(25deg);
+          transform: rotateZ(25deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(3) {
-  -webkit-transform: rotateZ(332deg);
-          transform: rotateZ(332deg);
+  -webkit-transform: rotateZ(65deg);
+          transform: rotateZ(65deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(4) {
-  -webkit-transform: rotateZ(192deg);
-          transform: rotateZ(192deg);
+  -webkit-transform: rotateZ(200deg);
+          transform: rotateZ(200deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(5) {
-  -webkit-transform: rotateZ(308deg);
-          transform: rotateZ(308deg);
+  -webkit-transform: rotateZ(154deg);
+          transform: rotateZ(154deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(6) {
-  -webkit-transform: rotateZ(172deg);
-          transform: rotateZ(172deg);
+  -webkit-transform: rotateZ(63deg);
+          transform: rotateZ(63deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(7) {
-  -webkit-transform: rotateZ(82deg);
-          transform: rotateZ(82deg);
+  -webkit-transform: rotateZ(35deg);
+          transform: rotateZ(35deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(8) {
-  -webkit-transform: rotateZ(152deg);
-          transform: rotateZ(152deg);
+  -webkit-transform: rotateZ(227deg);
+          transform: rotateZ(227deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(9) {
-  -webkit-transform: rotateZ(194deg);
-          transform: rotateZ(194deg);
+  -webkit-transform: rotateZ(66deg);
+          transform: rotateZ(66deg);
 }
 
 #earth .core:nth-child(7) .light:nth-child(10) {
-  -webkit-transform: rotateZ(149deg);
-          transform: rotateZ(149deg);
+  -webkit-transform: rotateZ(218deg);
+          transform: rotateZ(218deg);
 }
 
 #earth .core:nth-child(7) .light_inner {
-  -webkit-animation: light 1592ms -2540ms ease-in infinite;
-          animation: light 1592ms -2540ms ease-in infinite;
+  -webkit-animation: light 2002ms -2368ms ease-in infinite;
+          animation: light 2002ms -2368ms ease-in infinite;
 }
 
 #earth .core:nth-child(8) {
@@ -527,28 +527,28 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(8) .light:nth-child(1) {
-  -webkit-transform: rotateZ(251deg);
-          transform: rotateZ(251deg);
+  -webkit-transform: rotateZ(153deg);
+          transform: rotateZ(153deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(2) {
-  -webkit-transform: rotateZ(356deg);
-          transform: rotateZ(356deg);
+  -webkit-transform: rotateZ(40deg);
+          transform: rotateZ(40deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(3) {
-  -webkit-transform: rotateZ(189deg);
-          transform: rotateZ(189deg);
+  -webkit-transform: rotateZ(209deg);
+          transform: rotateZ(209deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(4) {
-  -webkit-transform: rotateZ(195deg);
-          transform: rotateZ(195deg);
+  -webkit-transform: rotateZ(319deg);
+          transform: rotateZ(319deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(5) {
-  -webkit-transform: rotateZ(110deg);
-          transform: rotateZ(110deg);
+  -webkit-transform: rotateZ(81deg);
+          transform: rotateZ(81deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(6) {
@@ -557,28 +557,28 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(8) .light:nth-child(7) {
-  -webkit-transform: rotateZ(105deg);
-          transform: rotateZ(105deg);
+  -webkit-transform: rotateZ(144deg);
+          transform: rotateZ(144deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(8) {
-  -webkit-transform: rotateZ(214deg);
-          transform: rotateZ(214deg);
+  -webkit-transform: rotateZ(339deg);
+          transform: rotateZ(339deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(9) {
-  -webkit-transform: rotateZ(59deg);
-          transform: rotateZ(59deg);
+  -webkit-transform: rotateZ(203deg);
+          transform: rotateZ(203deg);
 }
 
 #earth .core:nth-child(8) .light:nth-child(10) {
-  -webkit-transform: rotateZ(302deg);
-          transform: rotateZ(302deg);
+  -webkit-transform: rotateZ(192deg);
+          transform: rotateZ(192deg);
 }
 
 #earth .core:nth-child(8) .light_inner {
-  -webkit-animation: light 1809ms -472ms ease-in infinite;
-          animation: light 1809ms -472ms ease-in infinite;
+  -webkit-animation: light 1600ms -1682ms ease-in infinite;
+          animation: light 1600ms -1682ms ease-in infinite;
 }
 
 #earth .core:nth-child(9) {
@@ -587,58 +587,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(9) .light:nth-child(1) {
-  -webkit-transform: rotateZ(151deg);
-          transform: rotateZ(151deg);
+  -webkit-transform: rotateZ(34deg);
+          transform: rotateZ(34deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(2) {
-  -webkit-transform: rotateZ(101deg);
-          transform: rotateZ(101deg);
+  -webkit-transform: rotateZ(251deg);
+          transform: rotateZ(251deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(3) {
-  -webkit-transform: rotateZ(272deg);
-          transform: rotateZ(272deg);
+  -webkit-transform: rotateZ(258deg);
+          transform: rotateZ(258deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(4) {
-  -webkit-transform: rotateZ(67deg);
-          transform: rotateZ(67deg);
+  -webkit-transform: rotateZ(286deg);
+          transform: rotateZ(286deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(5) {
-  -webkit-transform: rotateZ(203deg);
-          transform: rotateZ(203deg);
+  -webkit-transform: rotateZ(18deg);
+          transform: rotateZ(18deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(6) {
-  -webkit-transform: rotateZ(294deg);
-          transform: rotateZ(294deg);
+  -webkit-transform: rotateZ(126deg);
+          transform: rotateZ(126deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(7) {
-  -webkit-transform: rotateZ(297deg);
-          transform: rotateZ(297deg);
+  -webkit-transform: rotateZ(26deg);
+          transform: rotateZ(26deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(8) {
-  -webkit-transform: rotateZ(174deg);
-          transform: rotateZ(174deg);
+  -webkit-transform: rotateZ(242deg);
+          transform: rotateZ(242deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(9) {
-  -webkit-transform: rotateZ(283deg);
-          transform: rotateZ(283deg);
+  -webkit-transform: rotateZ(118deg);
+          transform: rotateZ(118deg);
 }
 
 #earth .core:nth-child(9) .light:nth-child(10) {
-  -webkit-transform: rotateZ(221deg);
-          transform: rotateZ(221deg);
+  -webkit-transform: rotateZ(289deg);
+          transform: rotateZ(289deg);
 }
 
 #earth .core:nth-child(9) .light_inner {
-  -webkit-animation: light 1217ms -1192ms ease-in infinite;
-          animation: light 1217ms -1192ms ease-in infinite;
+  -webkit-animation: light 2620ms -885ms ease-in infinite;
+          animation: light 2620ms -885ms ease-in infinite;
 }
 
 #earth .core:nth-child(10) {
@@ -647,58 +647,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(10) .light:nth-child(1) {
-  -webkit-transform: rotateZ(114deg);
-          transform: rotateZ(114deg);
+  -webkit-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(2) {
-  -webkit-transform: rotateZ(202deg);
-          transform: rotateZ(202deg);
+  -webkit-transform: rotateZ(216deg);
+          transform: rotateZ(216deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(3) {
-  -webkit-transform: rotateZ(351deg);
-          transform: rotateZ(351deg);
+  -webkit-transform: rotateZ(135deg);
+          transform: rotateZ(135deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(4) {
-  -webkit-transform: rotateZ(245deg);
-          transform: rotateZ(245deg);
+  -webkit-transform: rotateZ(6deg);
+          transform: rotateZ(6deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(5) {
-  -webkit-transform: rotateZ(122deg);
-          transform: rotateZ(122deg);
+  -webkit-transform: rotateZ(138deg);
+          transform: rotateZ(138deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(6) {
-  -webkit-transform: rotateZ(5deg);
-          transform: rotateZ(5deg);
+  -webkit-transform: rotateZ(325deg);
+          transform: rotateZ(325deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(7) {
-  -webkit-transform: rotateZ(130deg);
-          transform: rotateZ(130deg);
+  -webkit-transform: rotateZ(344deg);
+          transform: rotateZ(344deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(8) {
-  -webkit-transform: rotateZ(314deg);
-          transform: rotateZ(314deg);
+  -webkit-transform: rotateZ(127deg);
+          transform: rotateZ(127deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(9) {
-  -webkit-transform: rotateZ(281deg);
-          transform: rotateZ(281deg);
+  -webkit-transform: rotateZ(58deg);
+          transform: rotateZ(58deg);
 }
 
 #earth .core:nth-child(10) .light:nth-child(10) {
-  -webkit-transform: rotateZ(195deg);
-          transform: rotateZ(195deg);
+  -webkit-transform: rotateZ(275deg);
+          transform: rotateZ(275deg);
 }
 
 #earth .core:nth-child(10) .light_inner {
-  -webkit-animation: light 2288ms -2737ms ease-in infinite;
-          animation: light 2288ms -2737ms ease-in infinite;
+  -webkit-animation: light 2266ms -539ms ease-in infinite;
+          animation: light 2266ms -539ms ease-in infinite;
 }
 
 #earth .core:nth-child(11) {
@@ -707,58 +707,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(11) .light:nth-child(1) {
-  -webkit-transform: rotateZ(215deg);
-          transform: rotateZ(215deg);
+  -webkit-transform: rotateZ(285deg);
+          transform: rotateZ(285deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(2) {
-  -webkit-transform: rotateZ(92deg);
-          transform: rotateZ(92deg);
+  -webkit-transform: rotateZ(283deg);
+          transform: rotateZ(283deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(3) {
-  -webkit-transform: rotateZ(13deg);
-          transform: rotateZ(13deg);
+  -webkit-transform: rotateZ(241deg);
+          transform: rotateZ(241deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(4) {
-  -webkit-transform: rotateZ(142deg);
-          transform: rotateZ(142deg);
+  -webkit-transform: rotateZ(113deg);
+          transform: rotateZ(113deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(5) {
-  -webkit-transform: rotateZ(206deg);
-          transform: rotateZ(206deg);
+  -webkit-transform: rotateZ(271deg);
+          transform: rotateZ(271deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(6) {
-  -webkit-transform: rotateZ(340deg);
-          transform: rotateZ(340deg);
+  -webkit-transform: rotateZ(271deg);
+          transform: rotateZ(271deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(7) {
-  -webkit-transform: rotateZ(287deg);
-          transform: rotateZ(287deg);
+  -webkit-transform: rotateZ(246deg);
+          transform: rotateZ(246deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(8) {
-  -webkit-transform: rotateZ(278deg);
-          transform: rotateZ(278deg);
+  -webkit-transform: rotateZ(116deg);
+          transform: rotateZ(116deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(9) {
-  -webkit-transform: rotateZ(311deg);
-          transform: rotateZ(311deg);
+  -webkit-transform: rotateZ(259deg);
+          transform: rotateZ(259deg);
 }
 
 #earth .core:nth-child(11) .light:nth-child(10) {
-  -webkit-transform: rotateZ(147deg);
-          transform: rotateZ(147deg);
+  -webkit-transform: rotateZ(229deg);
+          transform: rotateZ(229deg);
 }
 
 #earth .core:nth-child(11) .light_inner {
-  -webkit-animation: light 2727ms -2209ms ease-in infinite;
-          animation: light 2727ms -2209ms ease-in infinite;
+  -webkit-animation: light 1506ms -810ms ease-in infinite;
+          animation: light 1506ms -810ms ease-in infinite;
 }
 
 #earth .core:nth-child(12) {
@@ -767,58 +767,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(12) .light:nth-child(1) {
-  -webkit-transform: rotateZ(208deg);
-          transform: rotateZ(208deg);
+  -webkit-transform: rotateZ(294deg);
+          transform: rotateZ(294deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(2) {
-  -webkit-transform: rotateZ(352deg);
-          transform: rotateZ(352deg);
+  -webkit-transform: rotateZ(169deg);
+          transform: rotateZ(169deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(3) {
-  -webkit-transform: rotateZ(66deg);
-          transform: rotateZ(66deg);
+  -webkit-transform: rotateZ(42deg);
+          transform: rotateZ(42deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(4) {
-  -webkit-transform: rotateZ(297deg);
-          transform: rotateZ(297deg);
+  -webkit-transform: rotateZ(126deg);
+          transform: rotateZ(126deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(5) {
-  -webkit-transform: rotateZ(340deg);
-          transform: rotateZ(340deg);
+  -webkit-transform: rotateZ(64deg);
+          transform: rotateZ(64deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(6) {
-  -webkit-transform: rotateZ(317deg);
-          transform: rotateZ(317deg);
+  -webkit-transform: rotateZ(129deg);
+          transform: rotateZ(129deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(7) {
-  -webkit-transform: rotateZ(280deg);
-          transform: rotateZ(280deg);
+  -webkit-transform: rotateZ(262deg);
+          transform: rotateZ(262deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(8) {
-  -webkit-transform: rotateZ(285deg);
-          transform: rotateZ(285deg);
+  -webkit-transform: rotateZ(225deg);
+          transform: rotateZ(225deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(9) {
-  -webkit-transform: rotateZ(194deg);
-          transform: rotateZ(194deg);
+  -webkit-transform: rotateZ(12deg);
+          transform: rotateZ(12deg);
 }
 
 #earth .core:nth-child(12) .light:nth-child(10) {
-  -webkit-transform: rotateZ(239deg);
-          transform: rotateZ(239deg);
+  -webkit-transform: rotateZ(242deg);
+          transform: rotateZ(242deg);
 }
 
 #earth .core:nth-child(12) .light_inner {
-  -webkit-animation: light 1464ms -749ms ease-in infinite;
-          animation: light 1464ms -749ms ease-in infinite;
+  -webkit-animation: light 1049ms -2427ms ease-in infinite;
+          animation: light 1049ms -2427ms ease-in infinite;
 }
 
 #earth .core:nth-child(13) {
@@ -827,58 +827,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(13) .light:nth-child(1) {
-  -webkit-transform: rotateZ(14deg);
-          transform: rotateZ(14deg);
+  -webkit-transform: rotateZ(110deg);
+          transform: rotateZ(110deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(2) {
-  -webkit-transform: rotateZ(109deg);
-          transform: rotateZ(109deg);
+  -webkit-transform: rotateZ(177deg);
+          transform: rotateZ(177deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(3) {
-  -webkit-transform: rotateZ(41deg);
-          transform: rotateZ(41deg);
+  -webkit-transform: rotateZ(320deg);
+          transform: rotateZ(320deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(4) {
-  -webkit-transform: rotateZ(181deg);
-          transform: rotateZ(181deg);
+  -webkit-transform: rotateZ(285deg);
+          transform: rotateZ(285deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(5) {
-  -webkit-transform: rotateZ(142deg);
-          transform: rotateZ(142deg);
+  -webkit-transform: rotateZ(63deg);
+          transform: rotateZ(63deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(6) {
-  -webkit-transform: rotateZ(290deg);
-          transform: rotateZ(290deg);
+  -webkit-transform: rotateZ(241deg);
+          transform: rotateZ(241deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(7) {
-  -webkit-transform: rotateZ(217deg);
-          transform: rotateZ(217deg);
+  -webkit-transform: rotateZ(138deg);
+          transform: rotateZ(138deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(8) {
-  -webkit-transform: rotateZ(354deg);
-          transform: rotateZ(354deg);
+  -webkit-transform: rotateZ(31deg);
+          transform: rotateZ(31deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(9) {
-  -webkit-transform: rotateZ(185deg);
-          transform: rotateZ(185deg);
+  -webkit-transform: rotateZ(114deg);
+          transform: rotateZ(114deg);
 }
 
 #earth .core:nth-child(13) .light:nth-child(10) {
-  -webkit-transform: rotateZ(171deg);
-          transform: rotateZ(171deg);
+  -webkit-transform: rotateZ(99deg);
+          transform: rotateZ(99deg);
 }
 
 #earth .core:nth-child(13) .light_inner {
-  -webkit-animation: light 1263ms -272ms ease-in infinite;
-          animation: light 1263ms -272ms ease-in infinite;
+  -webkit-animation: light 2484ms -1619ms ease-in infinite;
+          animation: light 2484ms -1619ms ease-in infinite;
 }
 
 #earth .core:nth-child(14) {
@@ -887,58 +887,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(14) .light:nth-child(1) {
-  -webkit-transform: rotateZ(211deg);
-          transform: rotateZ(211deg);
+  -webkit-transform: rotateZ(6deg);
+          transform: rotateZ(6deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(2) {
-  -webkit-transform: rotateZ(14deg);
-          transform: rotateZ(14deg);
+  -webkit-transform: rotateZ(76deg);
+          transform: rotateZ(76deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(3) {
-  -webkit-transform: rotateZ(276deg);
-          transform: rotateZ(276deg);
+  -webkit-transform: rotateZ(190deg);
+          transform: rotateZ(190deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(4) {
-  -webkit-transform: rotateZ(318deg);
-          transform: rotateZ(318deg);
+  -webkit-transform: rotateZ(300deg);
+          transform: rotateZ(300deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(5) {
-  -webkit-transform: rotateZ(358deg);
-          transform: rotateZ(358deg);
+  -webkit-transform: rotateZ(352deg);
+          transform: rotateZ(352deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(6) {
-  -webkit-transform: rotateZ(308deg);
-          transform: rotateZ(308deg);
+  -webkit-transform: rotateZ(47deg);
+          transform: rotateZ(47deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(7) {
-  -webkit-transform: rotateZ(103deg);
-          transform: rotateZ(103deg);
+  -webkit-transform: rotateZ(37deg);
+          transform: rotateZ(37deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(8) {
-  -webkit-transform: rotateZ(91deg);
-          transform: rotateZ(91deg);
+  -webkit-transform: rotateZ(194deg);
+          transform: rotateZ(194deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(9) {
-  -webkit-transform: rotateZ(334deg);
-          transform: rotateZ(334deg);
+  -webkit-transform: rotateZ(130deg);
+          transform: rotateZ(130deg);
 }
 
 #earth .core:nth-child(14) .light:nth-child(10) {
-  -webkit-transform: rotateZ(58deg);
-          transform: rotateZ(58deg);
+  -webkit-transform: rotateZ(163deg);
+          transform: rotateZ(163deg);
 }
 
 #earth .core:nth-child(14) .light_inner {
-  -webkit-animation: light 1712ms -380ms ease-in infinite;
-          animation: light 1712ms -380ms ease-in infinite;
+  -webkit-animation: light 2525ms -888ms ease-in infinite;
+          animation: light 2525ms -888ms ease-in infinite;
 }
 
 #earth .core:nth-child(15) {
@@ -947,58 +947,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(15) .light:nth-child(1) {
-  -webkit-transform: rotateZ(49deg);
-          transform: rotateZ(49deg);
+  -webkit-transform: rotateZ(238deg);
+          transform: rotateZ(238deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(2) {
-  -webkit-transform: rotateZ(281deg);
-          transform: rotateZ(281deg);
+  -webkit-transform: rotateZ(73deg);
+          transform: rotateZ(73deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(3) {
-  -webkit-transform: rotateZ(356deg);
-          transform: rotateZ(356deg);
+  -webkit-transform: rotateZ(196deg);
+          transform: rotateZ(196deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(4) {
-  -webkit-transform: rotateZ(134deg);
-          transform: rotateZ(134deg);
+  -webkit-transform: rotateZ(144deg);
+          transform: rotateZ(144deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(5) {
-  -webkit-transform: rotateZ(58deg);
-          transform: rotateZ(58deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(6) {
-  -webkit-transform: rotateZ(337deg);
-          transform: rotateZ(337deg);
+  -webkit-transform: rotateZ(125deg);
+          transform: rotateZ(125deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(7) {
-  -webkit-transform: rotateZ(324deg);
-          transform: rotateZ(324deg);
+  -webkit-transform: rotateZ(320deg);
+          transform: rotateZ(320deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(8) {
-  -webkit-transform: rotateZ(300deg);
-          transform: rotateZ(300deg);
+  -webkit-transform: rotateZ(199deg);
+          transform: rotateZ(199deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(9) {
-  -webkit-transform: rotateZ(197deg);
-          transform: rotateZ(197deg);
+  -webkit-transform: rotateZ(121deg);
+          transform: rotateZ(121deg);
 }
 
 #earth .core:nth-child(15) .light:nth-child(10) {
-  -webkit-transform: rotateZ(87deg);
-          transform: rotateZ(87deg);
+  -webkit-transform: rotateZ(268deg);
+          transform: rotateZ(268deg);
 }
 
 #earth .core:nth-child(15) .light_inner {
-  -webkit-animation: light 1821ms -2893ms ease-in infinite;
-          animation: light 1821ms -2893ms ease-in infinite;
+  -webkit-animation: light 838ms -2869ms ease-in infinite;
+          animation: light 838ms -2869ms ease-in infinite;
 }
 
 #earth .core:nth-child(16) {
@@ -1007,58 +1007,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(16) .light:nth-child(1) {
-  -webkit-transform: rotateZ(230deg);
-          transform: rotateZ(230deg);
+  -webkit-transform: rotateZ(202deg);
+          transform: rotateZ(202deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(2) {
-  -webkit-transform: rotateZ(335deg);
-          transform: rotateZ(335deg);
+  -webkit-transform: rotateZ(266deg);
+          transform: rotateZ(266deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(3) {
-  -webkit-transform: rotateZ(222deg);
-          transform: rotateZ(222deg);
+  -webkit-transform: rotateZ(224deg);
+          transform: rotateZ(224deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(4) {
-  -webkit-transform: rotateZ(290deg);
-          transform: rotateZ(290deg);
+  -webkit-transform: rotateZ(31deg);
+          transform: rotateZ(31deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(5) {
-  -webkit-transform: rotateZ(74deg);
-          transform: rotateZ(74deg);
+  -webkit-transform: rotateZ(167deg);
+          transform: rotateZ(167deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(6) {
-  -webkit-transform: rotateZ(110deg);
-          transform: rotateZ(110deg);
+  -webkit-transform: rotateZ(206deg);
+          transform: rotateZ(206deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(7) {
-  -webkit-transform: rotateZ(103deg);
-          transform: rotateZ(103deg);
+  -webkit-transform: rotateZ(283deg);
+          transform: rotateZ(283deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(8) {
-  -webkit-transform: rotateZ(112deg);
-          transform: rotateZ(112deg);
+  -webkit-transform: rotateZ(194deg);
+          transform: rotateZ(194deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(9) {
-  -webkit-transform: rotateZ(13deg);
-          transform: rotateZ(13deg);
+  -webkit-transform: rotateZ(253deg);
+          transform: rotateZ(253deg);
 }
 
 #earth .core:nth-child(16) .light:nth-child(10) {
-  -webkit-transform: rotateZ(28deg);
-          transform: rotateZ(28deg);
+  -webkit-transform: rotateZ(134deg);
+          transform: rotateZ(134deg);
 }
 
 #earth .core:nth-child(16) .light_inner {
-  -webkit-animation: light 1743ms -580ms ease-in infinite;
-          animation: light 1743ms -580ms ease-in infinite;
+  -webkit-animation: light 2518ms -817ms ease-in infinite;
+          animation: light 2518ms -817ms ease-in infinite;
 }
 
 #earth .core:nth-child(17) {
@@ -1067,58 +1067,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(17) .light:nth-child(1) {
-  -webkit-transform: rotateZ(260deg);
-          transform: rotateZ(260deg);
+  -webkit-transform: rotateZ(201deg);
+          transform: rotateZ(201deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(2) {
-  -webkit-transform: rotateZ(249deg);
-          transform: rotateZ(249deg);
+  -webkit-transform: rotateZ(338deg);
+          transform: rotateZ(338deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(3) {
-  -webkit-transform: rotateZ(118deg);
-          transform: rotateZ(118deg);
+  -webkit-transform: rotateZ(348deg);
+          transform: rotateZ(348deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(4) {
-  -webkit-transform: rotateZ(94deg);
-          transform: rotateZ(94deg);
+  -webkit-transform: rotateZ(182deg);
+          transform: rotateZ(182deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(5) {
-  -webkit-transform: rotateZ(312deg);
-          transform: rotateZ(312deg);
+  -webkit-transform: rotateZ(67deg);
+          transform: rotateZ(67deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(6) {
-  -webkit-transform: rotateZ(123deg);
-          transform: rotateZ(123deg);
+  -webkit-transform: rotateZ(114deg);
+          transform: rotateZ(114deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(7) {
-  -webkit-transform: rotateZ(156deg);
-          transform: rotateZ(156deg);
+  -webkit-transform: rotateZ(192deg);
+          transform: rotateZ(192deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(8) {
-  -webkit-transform: rotateZ(331deg);
-          transform: rotateZ(331deg);
+  -webkit-transform: rotateZ(340deg);
+          transform: rotateZ(340deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(9) {
-  -webkit-transform: rotateZ(153deg);
-          transform: rotateZ(153deg);
+  -webkit-transform: rotateZ(36deg);
+          transform: rotateZ(36deg);
 }
 
 #earth .core:nth-child(17) .light:nth-child(10) {
-  -webkit-transform: rotateZ(210deg);
-          transform: rotateZ(210deg);
+  -webkit-transform: rotateZ(33deg);
+          transform: rotateZ(33deg);
 }
 
 #earth .core:nth-child(17) .light_inner {
-  -webkit-animation: light 2041ms -2286ms ease-in infinite;
-          animation: light 2041ms -2286ms ease-in infinite;
+  -webkit-animation: light 1788ms -1816ms ease-in infinite;
+          animation: light 1788ms -1816ms ease-in infinite;
 }
 
 #earth .core:nth-child(18) {
@@ -1127,58 +1127,58 @@ div#my-navigation {
 }
 
 #earth .core:nth-child(18) .light:nth-child(1) {
-  -webkit-transform: rotateZ(18deg);
-          transform: rotateZ(18deg);
+  -webkit-transform: rotateZ(128deg);
+          transform: rotateZ(128deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(2) {
-  -webkit-transform: rotateZ(116deg);
-          transform: rotateZ(116deg);
+  -webkit-transform: rotateZ(249deg);
+          transform: rotateZ(249deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(3) {
-  -webkit-transform: rotateZ(4deg);
-          transform: rotateZ(4deg);
+  -webkit-transform: rotateZ(230deg);
+          transform: rotateZ(230deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(4) {
-  -webkit-transform: rotateZ(127deg);
-          transform: rotateZ(127deg);
+  -webkit-transform: rotateZ(262deg);
+          transform: rotateZ(262deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(5) {
-  -webkit-transform: rotateZ(321deg);
-          transform: rotateZ(321deg);
+  -webkit-transform: rotateZ(80deg);
+          transform: rotateZ(80deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(6) {
-  -webkit-transform: rotateZ(46deg);
-          transform: rotateZ(46deg);
+  -webkit-transform: rotateZ(39deg);
+          transform: rotateZ(39deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(7) {
-  -webkit-transform: rotateZ(125deg);
-          transform: rotateZ(125deg);
+  -webkit-transform: rotateZ(226deg);
+          transform: rotateZ(226deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(8) {
-  -webkit-transform: rotateZ(289deg);
-          transform: rotateZ(289deg);
+  -webkit-transform: rotateZ(104deg);
+          transform: rotateZ(104deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(9) {
-  -webkit-transform: rotateZ(115deg);
-          transform: rotateZ(115deg);
+  -webkit-transform: rotateZ(223deg);
+          transform: rotateZ(223deg);
 }
 
 #earth .core:nth-child(18) .light:nth-child(10) {
-  -webkit-transform: rotateZ(243deg);
-          transform: rotateZ(243deg);
+  -webkit-transform: rotateZ(335deg);
+          transform: rotateZ(335deg);
 }
 
 #earth .core:nth-child(18) .light_inner {
-  -webkit-animation: light 2013ms -66ms ease-in infinite;
-          animation: light 2013ms -66ms ease-in infinite;
+  -webkit-animation: light 2080ms -1674ms ease-in infinite;
+          animation: light 2080ms -1674ms ease-in infinite;
 }
 
 @-webkit-keyframes rotate {

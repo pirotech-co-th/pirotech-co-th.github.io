@@ -13,6 +13,13 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 992px) {
+  .carousel-caption {
+    top: 50px;
+    bottom: 80px;
+  }
+}
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

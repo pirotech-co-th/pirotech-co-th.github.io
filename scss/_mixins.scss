@@ -40,8 +40,3 @@
         @content;
     }
 }
-
-@mixin google-font($font){
-    $font: unquote($font);
-    @import url(https://fonts.googleapis.com/css?family=#{$font})
-}

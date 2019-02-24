@@ -1,4 +1,3 @@
-/* file: _functions.scss, must be attached first*/
 /*====COLORS=======*/
 /*=====FONTS=======*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
@@ -38,9 +37,30 @@ header .top-header .navbar-dark .navbar-toggler-icon {
   background-image: url("../img/logo-navbar-brand.png");
 }
 
+.piroTech-brand {
+  color: #fff;
+  font-weight: 600;
+}
+
 .intro {
   padding: 30px;
   background-color: rgba(10, 23, 45, 0.5);
+}
+
+@media only screen and (max-width: 992px) {
+  .intro {
+    padding: 30px 12px;
+  }
+}
+
+.intro h5 {
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro h5 {
+    margin-bottom: 4px;
+  }
 }
 
 .section1 {
@@ -48,7 +68,6 @@ header .top-header .navbar-dark .navbar-toggler-icon {
 }
 
 footer {
-  height: 350px;
   background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
   background: linear-gradient(to top right, #2b3690, #0a172d);
   color: #fff;
@@ -57,6 +76,7 @@ footer {
 @media only screen and (max-width: 576px) {
   footer {
     text-align: center;
+    padding-bottom: 30px;
   }
 }
 
@@ -167,6 +187,20 @@ footer .bottom-footer .social-media li a img {
   footer .bottom-footer .social-media li a img {
     max-width: 38px;
   }
+}
+
+footer .bottom-footer .credentials {
+  padding-top: 12px;
+  font-size: 12px;
+}
+
+footer .bottom-footer .credentials ul {
+  list-style: none;
+}
+
+footer .bottom-footer .credentials ul li {
+  display: inline-block;
+  margin-right: 12px;
 }
 
 footer a {
