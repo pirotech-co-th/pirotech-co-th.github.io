@@ -129,6 +129,11 @@ footer {
                             max-width: 38px;
                         }
                     }
+                    &:hover img{
+                        transform: scale(1.05);
+                        filter: opacity(.8);
+                    }
+                    transition: all .8s ease-in;
                 }
             }
         }

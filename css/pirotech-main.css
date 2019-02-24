@@ -179,6 +179,11 @@ footer .bottom-footer .social-media li {
   margin-right: 12px;
 }
 
+footer .bottom-footer .social-media li a {
+  -webkit-transition: all .8s ease-in;
+  transition: all .8s ease-in;
+}
+
 footer .bottom-footer .social-media li a img {
   max-width: 44px;
 }
@@ -187,6 +192,13 @@ footer .bottom-footer .social-media li a img {
   footer .bottom-footer .social-media li a img {
     max-width: 38px;
   }
+}
+
+footer .bottom-footer .social-media li a:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
 }
 
 footer .bottom-footer .credentials {
