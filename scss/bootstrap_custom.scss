@@ -2,12 +2,27 @@ $primary: rgba(43, 54, 144, 1);
 $danger: #ef4156;
 $border-radius: 0;
 $grid-gutter-width: 12px;
+$carousel-transition-duration: 1.6s;
 
 .bg-dark {
     background:linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10,23,45, 1) );
 }
 
+.carousel-item img{
+    // opacity: .9;
+}
 
+.carousel-caption {
+    position: absolute;
+    top: 100px;
+    bottom: 40px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    // background-color: rgba(10,23,45, .5);
+}
 
 // importing all bootstrap
-@import '../node_modules/bootstrap/scss/bootstrap'
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap/scss/carousel';
