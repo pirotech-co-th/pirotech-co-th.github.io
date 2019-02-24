@@ -224,17 +224,17 @@ footer a:hover {
   color: #fdfdfd;
 }
 
-#ShowRoomDirections .modal-header {
+#ShowRoomDirections .modal-header, #credits .modal-header {
   background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
   background: linear-gradient(to top right, #2b3690, #0a172d);
   color: #fff;
 }
 
-#ShowRoomDirections .modal-header button.close span {
+#ShowRoomDirections .modal-header button.close span, #credits .modal-header button.close span {
   color: #fff;
 }
 
-#ShowRoomDirections .modal-body iframe {
+#ShowRoomDirections .modal-body iframe, #credits .modal-body iframe {
   width: 100%;
 }
 /*# sourceMappingURL=pirotech-main.css.map */

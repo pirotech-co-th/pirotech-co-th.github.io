@@ -31,26 +31,26 @@
     <!-- Main css:  -->
     <link rel="stylesheet" type="text/css" href="./css/pirotech-main.css">
     <script>
-            // Place this code in the head section of your HTML file 
-            (function(r, d, s) {
-                r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function(p) {
-                    var js, sjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(p.id)) { return; }
-                    js = d.createElement(s);
-                    js.id = p.id;
-                    js.src = p.scriptToLoad;
-                    js.onload = p.callback
-                    sjs.parentNode.insertBefore(js, sjs);
-                };
-                var p = {
-                    scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
-                    id: 'skype_web_sdk'
-                };
-                r.loadSkypeWebSdkAsync(p);
-            })(window, document, 'script');
-     </script>
-            
-            
+        // Place this code in the head section of your HTML file 
+        (function (r, d, s) {
+            r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function (p) {
+                var js, sjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(p.id)) { return; }
+                js = d.createElement(s);
+                js.id = p.id;
+                js.src = p.scriptToLoad;
+                js.onload = p.callback
+                sjs.parentNode.insertBefore(js, sjs);
+            };
+            var p = {
+                scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
+                id: 'skype_web_sdk'
+            };
+            r.loadSkypeWebSdkAsync(p);
+        })(window, document, 'script');
+    </script>
+
+
     <!--[if lt IE 9]>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
@@ -306,7 +306,8 @@
                             <div class="col-12 social-media">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//pirotech-co-th.github.io/">
+                                        <a
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A//pirotech-co-th.github.io/">
                                             <img src="./img/social-media/facebook_ico.png" alt="facebook"
                                                 class="img-fluid">
                                         </a>
@@ -318,18 +319,21 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class='skype-share' data-href='https://pirotech-co-th.github.io/' data-lang='' data-text='' style="cursor:pointer;">
+                                        <a class='skype-share' data-href='https://pirotech-co-th.github.io/'
+                                            data-lang='' data-text='' style="cursor:pointer;">
                                             <img src="./img/social-media/skype_ico.png" alt="skype" class="img-fluid">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://wa.me/?text=https://pirotech-co-th.github.io/" data-action="share/whatsapp/share" >
+                                        <a href="https://wa.me/?text=https://pirotech-co-th.github.io/"
+                                            data-action="share/whatsapp/share">
                                             <img src="./img/social-media/whatsapp_ico.png" alt="whatsapp"
                                                 class="img-fluid">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//pirotech-co-th.github.io/&title=Pirotech&summary=The%0Ainnovative%20and%20unparalleled%20technology%20for%20immediate%20ignition%20suppression%0Ais%20now%20available%20to%20anyone.&source=">
+                                        <a
+                                            href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//pirotech-co-th.github.io/&title=Pirotech&summary=The%0Ainnovative%20and%20unparalleled%20technology%20for%20immediate%20ignition%20suppression%0Ais%20now%20available%20to%20anyone.&source=">
                                             <img src="./img/social-media/linkedin_ico.png" alt="linkedin"
                                                 class="img-fluid">
                                         </a>
@@ -340,10 +344,10 @@
                         <div class="row">
                             <div class="col-12 credentials">
                                 <ul class="list-unstyled list-inline">
-                                    <li><span id="year"></span> Copyright &copy;</li>
-                                    <li>Pirotech Co. Ltd.</li>
+                                    <li><span id="year"></span> Copyright &copy;Pirotech Co. Ltd.</li>
                                     <li>VAT Number: 12345567789</li>
-                                    <li><a href="#">credits&amp;attributions</a></li>
+                                    <li><a href="#" data-toggle="modal"
+                                            data-target="#credits">credits&amp;attributions</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -368,6 +372,33 @@
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11850.334953629586!2d100.89203055713514!3d12.939260411781488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310295ffbe4965a1%3A0x49f8f071b8c36e97!2sHollywood+Disco!5e0!3m2!1sen!2slv!4v1551019567947"
                         frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Credits modal: -->
+    <div class="modal" id="credits">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><span class="piroTech-brand"><i
+                                class="text-danger"><b>piro</b></i>Tech</span> / Credits and Attributions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-default text-center">This website was created using:</h4>
+                    <hr>
+                    <p>Bootstrap 4 free framework library &nbsp;&nbsp;<a href="https://getbootstrap.com"
+                            class="text-default">Bootstrap </a></p>
+                    <p>jQuery and jQueryUI free JS libraries&nbsp;&nbsp;<a href="https://jquery.com"
+                            class="text-default">jQuery</a> </p>
+                    <p>Icons from &nbsp;&nbsp;<a href="https://fontawesome.com/" class="text-default">Font Awesome.</a>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
