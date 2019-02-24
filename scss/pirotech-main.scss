@@ -152,3 +152,14 @@ footer {
         }
     }
 }
+#ShowRoomDirections{
+    .modal-header{
+        background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
+        color: #fff;
+    }
+    .modal-body{
+        iframe{
+            width: 100%;
+        }
+    }
+}
