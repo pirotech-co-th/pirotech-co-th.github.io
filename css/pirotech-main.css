@@ -218,6 +218,10 @@ footer a:hover {
   color: #fff;
 }
 
+#ShowRoomDirections .modal-header button.close span {
+  color: #fff;
+}
+
 #ShowRoomDirections .modal-body iframe {
   width: 100%;
 }
