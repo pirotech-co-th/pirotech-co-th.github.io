@@ -3,13 +3,16 @@
 @import "mixins";
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
 
+.spacer{
+    height:30px;
+}
 body {
     font-size: 16px;
     font-family: 'Heebo', sans-serif;
 }
 
 header {
-    background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
+    background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(14, 24, 59, 1));
     .top-header {
         background: inherit;
         .navbar-brand {
@@ -37,9 +40,30 @@ main {
     color: #fff;
     font-weight: 600;
 }
-.intro{
-    padding: 30px;
-    background-color: rgba(10,23,45, .5);
+.piroTech-brand-2{
+    color: lighten($primary, 15%);
+    font-weight: 600; 
+}
+
+section{
+    
+    .heading{
+        background-color: rgba(14, 24, 59, 1);
+        margin: 30px 0;
+    }
+    h2{
+        background-color: rgba(14, 24, 59, 1);
+        color: #fff;
+        padding: 15px;
+    }
+}
+#section1{
+    margin-top: 30px;
+    padding: 0;
+    
+}
+#section1-intro{
+    
     @include sm-screens{
         padding: 30px 12px; 
     }
@@ -49,10 +73,164 @@ main {
             margin-bottom: 4px; 
         }
     }
+    .carousel-item{
+        text-align: center;
+        .intro-bg{ 
+            position: absolute;
+            top: 0; bottom: 0; left:0; right: 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            z-index: 0;
+            filter: blur(5px);
+        }
+        img{
+            position:relative;
+            z-index: 2;
+        }
+        .intro{
+            position: relative;
+            z-index: 2;
+            padding: 30px;
+            background-color: rgba(10,23,45, .5);
+            h3{
+                color: $danger;
+                text-transform: uppercase;
+            }
+        }
+    }
 }
-.section1{
+
+#section2{
     padding: 0;
-    
+    .features{
+        padding: 0 30px;
+    }
+}
+#section3{
+    padding: 0; 
+    h3{
+        background-color: rgba(14, 24, 59, 1);
+        color: #fff;
+        padding: 15px;
+        text-align: right; 
+    } 
+    .product{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .scope-of-application{
+        padding: 0 30px;
+    }
+    .diagram{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 15px;
+        .square{
+            width: 10vw;
+            height: 17vh;
+            background-color: $primary;
+            color: #fff;
+            text-align: center;
+            margin-right: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 24px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .details{
+            flex-grow: 2;
+            color: $grey;
+            padding: 10px 0 10px 15px;
+            border-bottom: 1px solid $grey;
+            display: flex;
+            flex-direction: column; 
+            justify-content: flex-end;
+            align-items: flex-start;
+            p.top{
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 20px;
+                padding: 0;
+            }
+            p.bottom{
+                width: 100%;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 0;
+                padding: 0;
+                letter-spacing: 2px;
+                word-spacing: 5px;
+            }
+        }
+    }
+
+    .patch{
+        width: 10vw;
+        height: 17vh;
+        background-color: $primary;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p.top{
+            font-size: 24px;
+            padding: 0;
+            margin: 0;
+        }
+        p.bottom{
+            font-size: 12px;
+        }  
+    }
+    .img-patch{
+        text-align: center;
+        img{
+            width: 10vw;
+        }
+    }
+    .patches-maxi{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .patch{
+            width: 10vw;
+            height: 17vh;
+            background-color: $primary;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p.top{
+                font-size: 24px;
+                padding: 0;
+                margin: 0;
+            }
+            p.bottom{
+                font-size: 12px;
+            } 
+        }
+    }
+
+}
+#section4{
+    table{
+        thead{
+            background-color: $primary;
+            color: #fff;
+        }
+    }
 }
 
 footer {
@@ -159,7 +337,7 @@ footer {
 }
 #ShowRoomDirections, #credits{
     .modal-header{
-        background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(10, 23, 45, 1));
+        background: linear-gradient(to top right, rgba(43, 54, 144, 1), rgba(14, 24, 59, 1));
         color: #fff;
         button.close span{
             color: #fff;

@@ -1,14 +1,18 @@
 /*====COLORS=======*/
 /*=====FONTS=======*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
+.spacer {
+  height: 30px;
+}
+
 body {
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
 }
 
 header {
-  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
-  background: linear-gradient(to top right, #2b3690, #0a172d);
+  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0e183b));
+  background: linear-gradient(to top right, #2b3690, #0e183b);
 }
 
 header .top-header {
@@ -42,29 +46,270 @@ header .top-header .navbar-dark .navbar-toggler-icon {
   font-weight: 600;
 }
 
-.intro {
-  padding: 30px;
-  background-color: rgba(10, 23, 45, 0.5);
+.piroTech-brand-2 {
+  color: #1d3179;
+  font-weight: 600;
+}
+
+section .heading {
+  background-color: #0e183b;
+  margin: 30px 0;
+}
+
+section h2 {
+  background-color: #0e183b;
+  color: #fff;
+  padding: 15px;
+}
+
+#section1 {
+  margin-top: 30px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 992px) {
-  .intro {
+  #section1-intro {
     padding: 30px 12px;
   }
 }
 
-.intro h5 {
+#section1-intro h5 {
   color: #fff;
 }
 
 @media only screen and (max-width: 992px) {
-  .intro h5 {
+  #section1-intro h5 {
     margin-bottom: 4px;
   }
 }
 
-.section1 {
+#section1-intro .carousel-item {
+  text-align: center;
+}
+
+#section1-intro .carousel-item .intro-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+#section1-intro .carousel-item img {
+  position: relative;
+  z-index: 2;
+}
+
+#section1-intro .carousel-item .intro {
+  position: relative;
+  z-index: 2;
+  padding: 30px;
+  background-color: rgba(10, 23, 45, 0.5);
+}
+
+#section1-intro .carousel-item .intro h3 {
+  color: #ef4156;
+  text-transform: uppercase;
+}
+
+#section2 {
   padding: 0;
+}
+
+#section2 .features {
+  padding: 0 30px;
+}
+
+#section3 {
+  padding: 0;
+}
+
+#section3 h3 {
+  background-color: #0e183b;
+  color: #fff;
+  padding: 15px;
+  text-align: right;
+}
+
+#section3 .product {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#section3 .scope-of-application {
+  padding: 0 30px;
+}
+
+#section3 .diagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
+}
+
+#section3 .diagram .square {
+  width: 10vw;
+  height: 17vh;
+  background-color: #0e183b;
+  color: #fff;
+  text-align: center;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section3 .diagram .square p {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+#section3 .diagram .details {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  color: #5b5b59;
+  padding: 10px 0 10px 15px;
+  border-bottom: 1px solid #5b5b59;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#section3 .diagram .details p.top {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+#section3 .diagram .details p.bottom {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#section3 .patch {
+  width: 10vw;
+  height: 17vh;
+  background-color: #0e183b;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section3 .patch p.top {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+#section3 .patch p.bottom {
+  font-size: 12px;
+}
+
+#section3 .img-patch {
+  text-align: center;
+}
+
+#section3 .img-patch img {
+  width: 10vw;
+}
+
+#section3 .patches-maxi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#section3 .patches-maxi .patch {
+  width: 10vw;
+  height: 17vh;
+  background-color: #0e183b;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section3 .patches-maxi .patch p.top {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+#section3 .patches-maxi .patch p.bottom {
+  font-size: 12px;
+}
+
+#section4 table thead {
+  background-color: #0e183b;
+  color: #fff;
 }
 
 footer {
@@ -225,8 +470,8 @@ footer a:hover {
 }
 
 #ShowRoomDirections .modal-header, #credits .modal-header {
-  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0a172d));
-  background: linear-gradient(to top right, #2b3690, #0a172d);
+  background: -webkit-gradient(linear, left bottom, right top, from(#2b3690), to(#0e183b));
+  background: linear-gradient(to top right, #2b3690, #0e183b);
   color: #fff;
 }
 
