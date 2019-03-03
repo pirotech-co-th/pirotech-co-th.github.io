@@ -9,6 +9,9 @@
 body {
     font-size: 16px;
     font-family: 'Heebo', sans-serif;
+    @include xs-screens{
+        font-size: 18px;;
+    }
 }
 
 header {
@@ -65,7 +68,10 @@ section{
 #section1-intro{
     
     @include sm-screens{
-        padding: 30px 12px; 
+        padding: 30px 0px; 
+    }
+    @include xs-screens{
+        padding: 0;
     }
     h5{
         color:  #fff;
@@ -75,6 +81,7 @@ section{
     }
     .carousel-item{
         text-align: center;
+        
         .intro-bg{ 
             position: absolute;
             top: 0; bottom: 0; left:0; right: 0;
@@ -82,10 +89,17 @@ section{
             background-size: 100%;
             z-index: 0;
             filter: blur(5px);
+            @include sm-screens{
+                height: 0; width: 0;
+                display: none; 
+            }
         }
         img{
             position:relative;
             z-index: 2;
+            @include xs-screens{
+                width: 100%;
+            }
         }
         .intro{
             position: relative;
@@ -121,6 +135,9 @@ section{
     }
     .scope-of-application{
         padding: 0 30px;
+        @include md-screens{
+            padding: 0;
+        }
     }
     .diagram{
         display: flex;
@@ -138,6 +155,16 @@ section{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include md-screens{
+                height: 15vh;
+            }
+            @include sm-screens{
+                height: 12vh;
+            }
+            @include xs-screens{
+                width: 24vw;
+                height: 12vh;
+            }
             p{
                 font-size: 24px;
                 padding: 0;
@@ -165,8 +192,7 @@ section{
                 font-weight: 600;
                 margin: 0;
                 padding: 0;
-                letter-spacing: 2px;
-                word-spacing: 5px;
+                
             }
         }
     }
@@ -182,6 +208,12 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @include xs-screens{
+            width: 20vw; 
+        }
+        @include small-xs-screens{
+            width: 30vw; 
+        }
         p.top{
             font-size: 24px;
             padding: 0;
@@ -189,7 +221,15 @@ section{
         }
         p.bottom{
             font-size: 12px;
+            @include xs-screens{
+                font-size: 18px;
+            }
         }  
+    }
+    .img-group{
+        @include xs-screens{
+            display: none;
+        }
     }
     .img-patch{
         text-align: center;
@@ -212,6 +252,12 @@ section{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include xs-screens{
+                width: 20vw; 
+            }
+            @include small-xs-screens{
+                width: 30vw; 
+            }
             p.top{
                 font-size: 24px;
                 padding: 0;
@@ -219,6 +265,9 @@ section{
             }
             p.bottom{
                 font-size: 12px;
+                @include xs-screens{
+                    font-size: 18px;
+                }
             } 
         }
     }
