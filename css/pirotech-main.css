@@ -43,6 +43,12 @@ header .top-header .navbar-dark .navbar-nav .nav-link {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  header .top-header .navbar-dark .navbar-nav .nav-link {
+    font-size: 28px;
+  }
+}
+
 header .top-header .navbar-dark .navbar-toggler-icon {
   background-image: url("../img/logo-navbar-brand.png");
 }
@@ -70,6 +76,12 @@ section h2 {
   background-color: #0e183b;
   color: #fff;
   padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  section p {
+    text-align: center;
+  }
 }
 
 #section1 {

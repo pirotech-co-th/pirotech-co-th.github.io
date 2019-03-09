@@ -29,6 +29,9 @@ header {
             @include sm-screens {
                 margin: 0 6px;
             }
+            @include xs-screens {
+                font-size: 28px;
+            }
         }
         .navbar-dark .navbar-toggler-icon {
             background-image: url('../img/logo-navbar-brand.png');
@@ -39,9 +42,6 @@ header {
     }
 }
 
-main {
-    
-}
 .piroTech-brand{
     color: #fff;
     font-weight: 600;
@@ -61,6 +61,11 @@ section{
         background-color: rgba(14, 24, 59, 1);
         color: #fff;
         padding: 15px;
+    }
+    p{
+        @include xs-screens {
+            text-align: center;
+        }  
     }
 }
 #section1{
