@@ -67,7 +67,7 @@
             <!--container fixed shall contain the header 
 	content within the frame area -->
             <div class="container-fluid">
-                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="mainNav">
                     <div class="container">
                         <a class="navbar-brand d-none d-sm-none d-md-block d-lg-block" href="#"><i
                                 class="text-danger">piro</i>tech</a>
@@ -80,17 +80,32 @@
                         </a>
                         <div class="collapse navbar-collapse" id="navbarColor02">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#section1-intro">Intro </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section2">Features</a>
+                                    <a class="nav-link js-scroll-trigger" href="#paint">
+                                        
+                                        pirotech Paint
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section3">Products</a>
+                                    <a class="nav-link js-scroll-trigger" href="#cord">
+                                            pirotech Cord
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section4">Pricing</a>
+                                    <a class="nav-link js-scroll-trigger" href="#patch">
+                                            pirotech Patch
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link" href="#section4">Pricing</a> -->
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#contacts">
+                                        Contacts
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -120,16 +135,22 @@
         <!-- SECTION 1 -->
         <section id="section1">
             <!-- Carousel: -->
-            <div id="section1-intro" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div id="section1-intro" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <ol class="carousel-indicators">
                     <li data-target="#section1-intro" data-slide-to="0" class="active"></li>
                     <li data-target="#section1-intro" data-slide-to="1"></li>
                     <li data-target="#section1-intro" data-slide-to="2"></li>
+                    <li data-target="#section1-intro" data-slide-to="3"></li>
+                    <li data-target="#section1-intro" data-slide-to="4"></li>
+                    <li data-target="#section1-intro" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active intro-item">
                         <div class="intro-bg" style="background: url('./img/intro-carousel/city.jpg')"></div>
-                        <img src="./img/intro-carousel/city.jpg" alt="">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/city-xs.jpg">
+                            <img src="./img/intro-carousel/city.jpg" alt="city">
+                        </picture>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="intro">
                                 <h3> About</h3>
@@ -161,7 +182,10 @@
                     </div>
                     <div class="carousel-item intro-item">
                         <div class="intro-bg" style="background: url('./img/intro-carousel/car-engine.jpg')"></div>
-                        <img src="./img/intro-carousel/car-engine.jpg" alt="">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/car-engine-xs.jpg">
+                            <img src="./img/intro-carousel/car-engine.jpg" alt="car engine">
+                        </picture>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="intro">
                                 <h3>Technology</h3>
@@ -185,7 +209,10 @@
                     </div>
                     <div class="carousel-item intro-item">
                         <div class="intro-bg" style="background: url('./img/intro-carousel/country-house.jpg')"></div>
-                        <img src="./img/intro-carousel/country-house.jpg" alt="">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/country-house-xs.jpg">
+                            <img src="./img/intro-carousel/country-house.jpg" alt="country house">
+                        </picture>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="intro pt-1">
                                 <h3>Why
@@ -239,6 +266,92 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item intro-item">
+                        <div class="intro-bg" style="background: url('./img/intro-carousel/paint.jpg')"></div>
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/paint-xs.jpg">
+                            <img src="./img/intro-carousel/paint.jpg" alt="pirotech paint">
+                        </picture>
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="intro">
+                                <h3> Effective</h3>
+                                <p>
+                                    <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span> – is
+                                    a new level of fire safety arrangements. A nanotechnology, based upon
+                                    microencapsulation of fire extinguishing agents, significantly reduces fire risk at
+                                    very initial ignition stages.
+                                </p>
+                                <p>
+                                    High-performance fire extinguishing agent is placed into polymer microcapsule
+                                    shells.
+                                    A standalone system to be an inertia-free and automatic element of any fire-fighting
+                                    system to suppress any source of ignition. It is activated independently of warning
+                                    and public address systems, automatic fire-fighting systems, emergency power cutoff
+                                    and human factor.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item intro-item">
+                        <div class="intro-bg" style="background: url('./img/intro-carousel/cord.jpg')"></div>
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/cord-xs.jpg">
+                            <img src="./img/intro-carousel/cord.jpg" alt="pirotech-cord">
+                        </picture>
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="intro">
+                                <h3> Innovative Technology</h3>
+                                <p>
+                                    Innovative technology of extinguishing material microcapsulation in the
+                                    <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span>
+                                    Production is a new layer of the fire safety.
+                                    <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span> Plate
+                                    reduces flame formation with microcapsules chemical
+                                    structure with Therma-OTB which decomposes in the fire area and forms
+                                    “solid” free radicals breaking kinematic linkages of combustion process,
+                                    ceasing its extension within a few seconds.
+                                </p>
+                                <p>
+                                    A new level of fire safety arrangements. A nanotechnology, based upon
+                                    microencapsulation of fire extinguishing agents, significantly reduces fire risk at
+                                    very initial ignition stages.
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item intro-item">
+                        <div class="intro-bg" style="background: url('./img/intro-carousel/patch-maxi.jpg')"></div>
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/intro-carousel/patch-maxi-xs.jpg">
+                            <img src="./img/intro-carousel/patch-maxi.jpg" alt="pirotech patch maxi">
+                        </picture>
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="intro">
+                                <h3> the substance</h3>
+                                <p>
+                                    The basis of <span class="piroTech-brand"><i
+                                            class="text-danger"><b>piro</b></i>tech</span> products is polymer matrix
+                                    filled with microcapsules to contain high-performance extinguishing agent NOVEC
+                                    1230. When overheated or exposed to fire, microcapsules break down and release
+                                    extinguishing agent towards a source of ignition to immediately suppress fire at
+                                    initial stages. For manufacture of <span class="piroTech-brand"><i
+                                            class="text-danger"><b>piro</b></i>tech</span> products, only innovative
+                                    technologies and high-quality materials are used which guarantees their trouble-free
+                                    operation within 5 years and safety for humans, animals and environment.
+                                </p>
+                                <h3 class="text-danger">
+                                    Certification and Compliance:
+                                </h3>
+                                <p>
+                                    Manufactured in accordance with TU 4854-002-40033110-2015.
+                                    Meets the requirements of GOST P 56459-2015
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#section1-intro" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -252,56 +365,7 @@
             <!-- Carousel end. -->
         </section>
         <!-- SECTION 2 -->
-        <section id="section2" class="container-fluid">
-            <div class="heading">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2>
-                                Technology Features
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center features">
-                        <p>
-                            The basis of <span class="piroTech-brand-2"><i
-                                    class="text-danger"><b>piro</b></i>tech</span>
-                            products is polymer matrix filled with microcapsules to contain
-                            high-performance extinguishing agent NOVEC 1230. When overheated or exposed
-                            to fire, microcapsules break down and release extinguishing agent towards a source of
-                            ignition to immediately suppress fire at initial stages. For manufacture of <span
-                                class="piroTech-brand-2"><i class="text-danger"><b>piro</b></i>tech</span> products,
-                            only innovative technologies and high-quality materials are used which guarantees their
-                            trouble-free operation within 5 years and safety for humans, animals and environment.
-                        </p>
-                        <p>
-                            <span class="piroTech-brand-2"><i class="text-danger"><b>piro</b></i>tech</span> - is a new
-                            level of fire safety arrangements. A nanotechnology, based upon
-                            microencapsulation of fire extinguishing agents, significantly reduces fire risk at
-                            very initial ignition stages.
-                        </p>
-                        <p>
-                            <span class="piroTech-brand-2"><i class="text-danger"><b>piro</b></i>tech</span> - is a
-                            standalone system to be an inertia-free and automatic element of any
-                            fire-fighting system to suppress any source of ignition. It is activated independently
-                            of warning and public address systems, automatic fire-fighting systems, emergency
-                            power cutoff and human factor.
-                        </p>
-                        <p>
-                            <span class="piroTech-brand-2"><i class="text-danger"><b>piro</b></i>tech</span> - is a
-                            perfect
-                            addition to regular fire suppression systems to significantly improve
-                            fire protection reliability.
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-        </section>
         <!-- SECTION 3 -->
         <section id="section3" class="container-fluid">
             <div class="heading">
@@ -319,7 +383,7 @@
                 <!-- pirotech paint: -->
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h3>
+                        <h3 id="paint">
                             <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span> paint
                         </h3>
                     </div>
@@ -344,7 +408,7 @@
                 <!-- pirotech cord: -->
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-6">
-                        <h3>
+                        <h3 id="cord">
                             <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span> cord
                         </h3>
                     </div>
@@ -437,9 +501,10 @@
                         </div>
                     </div>
                 </div>
+                <!-- pirotech patch: -->
                 <div class="row product">
                     <div class="col-12 col-md-6">
-                        <h3>
+                        <h3 id="patch">
                             <span class="piroTech-brand"><i class="text-danger"><b>piro</b></i>tech</span>
                             patch
                         </h3>
@@ -463,28 +528,25 @@
                         <div class="img-group">
                             <!-- carousel: -->
                             <div id="stickers-image-group" class="carousel slide" data-ride="carousel"
-                                data-interval="5000">
+                                data-interval="4000">
                                 <ol class="carousel-indicators">
                                     <li data-target="#stickers-image-group" data-slide-to="0" class="active"></li>
                                     <li data-target="#stickers-image-group" data-slide-to="1"></li>
                                     <li data-target="#stickers-image-group" data-slide-to="2"></li>
+                                    <li data-target="#stickers-image-group" data-slide-to="3"></li>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active text-center">
-                                        <img src="./img/products/micro-capsules-3.png" alt="">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
+                                        <img src="./img/products/micro-capsules-3.png" alt="pirotech microcapsules">
                                     </div>
                                     <div class="carousel-item text-center">
-                                        <img src="./img/products/micro-capsules-4.JPG" alt="">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
+                                        <img src="./img/products/micro-capsules-4.JPG" alt="pirotech microcapsules">
                                     </div>
                                     <div class="carousel-item text-center">
-                                        <img src="./img/products/micro-capsules-5.jpg" alt="">
-                                        <div class="carousel-caption d-none d-md-block">
-
-                                        </div>
+                                        <img src="./img/products/micro-capsules-5.jpg" alt="pirotech microcapsules">
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="./img/products/micro-capsules-7.jpg" alt="pirotech microcapsules">
                                     </div>
                                 </div>
                             </div>
@@ -587,7 +649,7 @@
             </div>
 
         </section>
-        <section id="section4" class="container-fluid">
+        <!-- <section id="section4" class="container-fluid">
             <div class="heading">
                 <div class="container">
                     <div class="row">
@@ -688,7 +750,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section id="section5" class="container">
             <div class="row"></div>
         </section>
@@ -704,18 +766,18 @@
                     </div>
                 </div>
                 <div class="col-sm-9">
-                    <div class="container top-footer">
+                    <div class="container top-footer" id="contacts">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <h4>Pirotech Co Ltd.</h4>
-                                <p>Address details</p>
+                                <!-- <p>Address details</p> -->
                             </div>
                             <div class="col-12 col-sm-6">
-                                <h4>Our show room</h4>
+                                <!-- <h4>Our show room</h4> -->
                                 <!-- Button trigger modal -->
-                                <a href="#" data-toggle="modal" data-target="#ShowRoomDirections">
+                                <!-- <a href="#" data-toggle="modal" data-target="#ShowRoomDirections">
                                     <i class="fas fa-car"></i> Find Directions
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -782,7 +844,7 @@
                             <div class="col-12 credentials">
                                 <ul class="list-unstyled list-inline">
                                     <li><span id="year"></span> Copyright &copy;Pirotech Co. Ltd.</li>
-                                    <li>VAT Number: 12345567789</li>
+                                    <!-- <li>VAT Number: 12345567789</li> -->
                                     <li><a href="#" data-toggle="modal"
                                             data-target="#credits">credits&amp;attributions</a></li>
                                 </ul>
@@ -843,6 +905,10 @@
             </div>
         </div>
     </div>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Custom JavaScript for this scroll-top navlinks -->
+    <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
