@@ -118,6 +118,12 @@ section{
             }
         }
     }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: $danger;
+    }
 }
 
 #section2{
@@ -235,6 +241,12 @@ section{
     .img-group{
         @include xs-screens{
             display: none;
+        }
+        .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: $danger;
         }
     }
     .img-patch{

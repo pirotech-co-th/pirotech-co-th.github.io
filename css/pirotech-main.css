@@ -152,6 +152,13 @@ section h2 {
   font-size: 21px;
 }
 
+#section1-intro .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ef4156;
+}
+
 #section2 {
   padding: 0;
 }
@@ -336,6 +343,13 @@ section h2 {
   #section3 .img-group {
     display: none;
   }
+}
+
+#section3 .img-group .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ef4156;
 }
 
 #section3 .img-patch {
